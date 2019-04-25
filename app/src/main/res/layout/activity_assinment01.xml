@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sdlab2200.de_xian.bbp.com.sdlab2200.ActivityAssinment01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#001f51">
+
+        <Button
+            android:id="@+id/btn_LiniearLay"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Linear Layout"
+            />
+
+        <Button
+            android:id="@+id/btn_RelativeLay"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Relative Layout"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "922842027206",
+    "firebase_url": "https://easy-scan-ahxagent007.firebaseio.com",
+    "project_id": "easy-scan-ahxagent007",
+    "storage_bucket": "easy-scan-ahxagent007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922842027206:android:21c38606c13816c5",
+        "android_client_info": {
+          "package_name": "sdlab2200.de_xian.com.easyscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922842027206-t60g24ahquh9n8cnh0ls13spribtjbgd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sdlab2200.de_xian.com.easyscan",
+            "certificate_hash": "17aefe1c8032ce7e7e535900869d1a70f0adcd66"
+          }
+        },
+        {
+          "client_id": "922842027206-514b7ubfqm13h2auc89eniiqj5kf2b92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAusHnWgB5LyGJA80ZJw5anHGsUJtuScgs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922842027206-514b7ubfqm13h2auc89eniiqj5kf2b92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

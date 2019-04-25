@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sdlab2200.de_xian.bbp.com.sdlab2200.ActivityEncryptDecrypt">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b5c7e5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            >
+
+            <EditText
+                android:id="@+id/et_msgClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:hint="Write something that you want to Encrypt"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <Button
+                    android:id="@+id/btn_encrypt"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="Encrypt"
+                    android:background="#990014"
+                    android:layout_margin="2dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_decrypt"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="Decrypt"
+                    android:background="#007f39"
+                    android:layout_margin="2dp"
+                    />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_msgEncrypted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/viewfinder_border"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:hint="Write something that you want to Decrypt"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

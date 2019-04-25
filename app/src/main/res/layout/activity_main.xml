@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sdlab2200.de_xian.bbp.com.sdlab2200.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#001a44"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_scanner"
+                android:layout_width="match_parent"
+                android:layout_marginRight="7dp"
+                android:layout_height="100dp"
+                android:background="@drawable/qr"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000000"
+                android:textSize="12pt"
+                android:text="qr scanner"
+                />
+
+            <Button
+                android:id="@+id/btn_ocr"
+                android:layout_width="match_parent"
+                android:layout_marginRight="7dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ocr"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000000"
+                android:textSize="12pt"
+                android:text="on-screen reader"
+                />
+
+
+            <Button
+                android:id="@+id/btn_encryptDecrypt"
+                android:layout_width="match_parent"
+                android:layout_marginRight="7dp"
+                android:layout_height="100dp"
+                android:background="@drawable/msg"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000000"
+                android:textSize="12pt"
+                android:text="encryption/decryption"
+                />
+            <Button
+                android:id="@+id/btn_history"
+                android:layout_width="match_parent"
+                android:layout_marginRight="7dp"
+                android:layout_height="100dp"
+                android:background="@drawable/history"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000000"
+                android:textSize="12pt"
+                android:text="History"
+                />
+
+<!---            <Button
+                android:id="@+id/btn_assingment01"
+                android:layout_width="match_parent"
+                android:layout_marginRight="7dp"
+                android:layout_height="100dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000000"
+                android:textSize="12pt"
+                android:text="Assignemnt 01"
+                />
+-->
+            <Button
+                android:id="@+id/btn_about"
+                android:layout_width="match_parent"
+                android:layout_marginRight="7dp"
+                android:layout_height="100dp"
+                android:background="@drawable/about"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="#000000"
+                android:textSize="12pt"
+                android:text="about us"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
